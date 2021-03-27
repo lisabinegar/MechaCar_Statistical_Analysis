@@ -1,7 +1,9 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-[linear_regression.png]  
+[linear_regression.png]
+![image](https://user-images.githubusercontent.com/74984031/112733800-19cc4c00-8f10-11eb-99dc-533c3672d086.png)
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Vehicle length and ground clearance are two coefficients with a non-random amount of variance to the mpg values in the dataset. 
 
@@ -23,7 +25,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary. 
 - The first t-test was done to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The p-value for this t-test was 0.06 which is just above statistical significance of 0.05, indicating that there is no statistical difference in PSI across all manufacturing lots from the population mean. Looking at each lot individually, Lots 1 and 2 had similar results in that there was no statistical difference. The t-test completed for Lot 3, however, showed a p-value of 0.042, which does indicate a statistical difference in PSI in this lot from the population mean. 
-[4 screenshots] 
+[Ttest_lots_against_mean_PSI.png] 
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
