@@ -1,8 +1,6 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-[linear_regression.png]
-![image](https://user-images.githubusercontent.com/74984031/112733800-19cc4c00-8f10-11eb-99dc-533c3672d086.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Vehicle length and ground clearance are two coefficients with a non-random amount of variance to the mpg values in the dataset. 
@@ -13,9 +11,16 @@ Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - The R-squared value is roughly 71%, which means that about this frequently the model will predict mpg values accurately. 
 
+Linear Regression summary image: 
+![image](https://user-images.githubusercontent.com/74984031/112733800-19cc4c00-8f10-11eb-99dc-533c3672d086.png)
+
+
 ## Summary Statistics on Suspension Coils
-[Total_summary.png] 
-[Lot_summary.png] 
+Total Summary image: 
+![image](https://user-images.githubusercontent.com/74984031/112733850-4a13ea80-8f10-11eb-9965-90b5ec39e726.png)
+
+Lot Summary image: 
+![image](https://user-images.githubusercontent.com/74984031/112733895-9b23de80-8f10-11eb-9940-184b24075436.png) 
 
 Write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not? 
@@ -25,7 +30,17 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary. 
 - The first t-test was done to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The p-value for this t-test was 0.06 which is just above statistical significance of 0.05, indicating that there is no statistical difference in PSI across all manufacturing lots from the population mean. Looking at each lot individually, Lots 1 and 2 had similar results in that there was no statistical difference. The t-test completed for Lot 3, however, showed a p-value of 0.042, which does indicate a statistical difference in PSI in this lot from the population mean. 
-[Ttest_lots_against_mean_PSI.png] 
+- T-test for all Manufacturing Lots
+![image](https://user-images.githubusercontent.com/74984031/112733900-a7a83700-8f10-11eb-8e94-aed0d1464024.png)
+
+- T-test for Lot 1
+![image](https://user-images.githubusercontent.com/74984031/112733988-0c639180-8f11-11eb-92ab-0877fd5c9fab.png)
+
+- T-test for Lot 2
+![image](https://user-images.githubusercontent.com/74984031/112733999-16859000-8f11-11eb-8e3b-7e5d66523a89.png)
+
+- T-test for Lot 3
+![image](https://user-images.githubusercontent.com/74984031/112734008-21d8bb80-8f11-11eb-81a7-414626d5b9c6.png)
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
